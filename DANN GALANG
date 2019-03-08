@@ -1,0 +1,151 @@
+// Experiment 1 
+#include <iostream>
+#include <conio.h>
+#include <string>
+using namespace std;
+
+int main()
+{
+	float ticketPrice;
+  float ticketSold;
+  float box;
+  float sideline;
+  float genadmission;
+  float premium;
+	float GAME1MILVSGSW;
+	float GAME2BOSVSLAL;
+	float GAME3HOUVSOKC;
+	float GAME4SASVSTOR;
+	float PROCEEDTONEXTGAME;
+	
+
+	cout << "GAME 1 MIL VS GSW " << endl;
+	cout << "BOX " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME1MILVSGSW;
+	cout << "Box Ticket Sales: $" << GAME1MILVSGSW * 250 << endl;
+	
+	cout << " " << endl;
+	cout << "Sideline " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME1MILVSGSW;
+	cout << "Sideline Ticket Sales: $" << GAME1MILVSGSW * 100 << endl;
+	
+	cout << " " << endl;
+	cout << "Premium " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME1MILVSGSW;
+	cout << "Premium Ticket Sales: $" << GAME1MILVSGSW * 50 << endl;
+	
+	cout << " " << endl;
+	cout << "General Admission " << endl;
+	cout << "Enter Number of Ticket/s Sold" << endl;
+	cin >> GAME1MILVSGSW;
+	cout << "Premium Ticket Sales: $" << GAME1MILVSGSW * 25 << endl;
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Total Sales For Game 1: $" << (GAME1MILVSGSW * 25) +  (GAME1MILVSGSW * 50) + (GAME1MILVSGSW * 100) + (GAME1MILVSGSW * 250) << endl;
+	
+	cout << " " << endl;
+	cout << "PROCEED TO NEXT GAME"  << endl;
+
+	
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "GAME 2 BOS VS LAL " << endl;
+	cout << "BOX " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME2BOSVSLAL;
+	cout << "Box Ticket Sales: $" << GAME2BOSVSLAL * 250 << endl;
+	
+	cout << " " << endl;
+	cout << "Sideline " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME2BOSVSLAL;
+	cout << "Sideline Ticket Sales: $" << GAME2BOSVSLAL * 100 << endl;
+	
+	cout << " " << endl;
+	cout << "Premium " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME2BOSVSLAL;
+	cout << "Premium Ticket Sales: $" << GAME2BOSVSLAL * 50 << endl;
+	
+	cout << " " << endl;
+	cout << "General Admission" << endl;
+	cout << "Enter Number of Ticket/s Sold" << endl;
+	cin >> GAME2BOSVSLAL;
+	cout << "Premium Ticket Sales: $" << GAME2BOSVSLAL * 25 << endl;
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Total Sales For Game 1: $" << (GAME2BOSVSLAL * 25) +  (GAME2BOSVSLAL * 50) + (GAME2BOSVSLAL * 100) + (GAME2BOSVSLAL * 250) << endl;
+
+	cout << " " << endl;
+	cout << "PROCEED TO NEXT GAME" << endl;
+
+
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "GAME 3 HOU VS OKC " << endl;
+	cout << "BOX " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME3HOUVSOKC;
+	cout << "Box Ticket Sales: $" << GAME3HOUVSOKC * 250 << endl;
+	
+	cout << " " << endl;
+	cout << "Sideline " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME3HOUVSOKC;
+	cout << "Sideline Ticket Sales: $" << GAME3HOUVSOKC * 100 << endl;
+	
+	cout << " " << endl;
+	cout << "Premium " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >> GAME3HOUVSOKC;
+	cout << "Premium Ticket Sales: $" << GAME3HOUVSOKC * 50 << endl;
+	
+	cout << " " << endl;
+	cout << "General Admission" << endl;
+	cout << "Enter Number of Ticket/s Sold" << endl;
+	cin >> GAME3HOUVSOKC;
+	cout << "Premium Ticket Sales: $" << GAME3HOUVSOKC * 25 << endl;
+	
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Total Sales For Game 1: $" << (GAME3HOUVSOKC * 25) +  (GAME3HOUVSOKC * 50) + (GAME3HOUVSOKC * 100) + (GAME3HOUVSOKC * 250) << endl;
+
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "GAME 4 SAS VS TOR " << endl;
+	cout << "BOX " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >>  GAME4SASVSTOR;
+	cout << "Box Ticket Sales: $" << GAME4SASVSTOR * 250 << endl;
+	
+	cout << " " << endl;
+	cout << "Sideline " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >>  GAME4SASVSTOR;
+	cout << "Sideline Ticket Sales: $" << GAME4SASVSTOR * 100 << endl;
+	
+	cout << " " << endl;
+	cout << "Premium " << endl;
+	cout << "Enter Number of Ticket/s Sold " << endl;
+	cin >>  GAME4SASVSTOR;
+	cout << "Premium Ticket Sales: $" <<  GAME4SASVSTOR * 50 << endl;
+	
+	cout << " " << endl;
+	cout << "General Admission" << endl;
+	cout << "Enter Number of Ticket/s Sold" << endl;
+	cin >>  GAME4SASVSTOR;
+	cout << "Premium Ticket Sales: $" <<  GAME4SASVSTOR * 25 << endl;
+
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Total Sales For Game 1: $" << (GAME4SASVSTOR * 25) +  (GAME4SASVSTOR * 50) + (GAME4SASVSTOR * 100) + (GAME4SASVSTOR * 250) << endl;
+	
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Thank YOU" << endl;
+	_getch();
+	return 0;
+}
